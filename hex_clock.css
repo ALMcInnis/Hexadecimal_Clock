@@ -1,0 +1,25 @@
+
+
+@font-face {font-family: "NTF-Grand-Regular"; 
+src: url("//db.onlinewebfonts.com/t/b30ffe63cc57ffdba315d296d0ca85b0.eot"); 
+src: url("//db.onlinewebfonts.com/t/b30ffe63cc57ffdba315d296d0ca85b0.eot?#iefix") format("embedded-opentype"), 
+	 url("//db.onlinewebfonts.com/t/b30ffe63cc57ffdba315d296d0ca85b0.woff2") format("woff2"), 
+	 url("//db.onlinewebfonts.com/t/b30ffe63cc57ffdba315d296d0ca85b0.woff") format("woff"), 
+	 url("//db.onlinewebfonts.com/t/b30ffe63cc57ffdba315d296d0ca85b0.ttf") format("truetype"), 
+	 url("//db.onlinewebfonts.com/t/b30ffe63cc57ffdba315d296d0ca85b0.svg#NTF-Grand-Regular") format("svg"); 
+	 }
+
+body{
+margin:0;
+padding:0;
+transition:background-color .5s;
+}
+
+div#clock{
+font-size:30vmin;
+font-family:NTF-Grand-Regular, sans-serif;
+font-variant-numeric:tabular-nums;
+color:white;
+text-align:center;
+margin:30vh auto;
+}
